@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="slide1">
+        <div class="diaporama">
+            <p class="fade-in">"Love is not about how many days, months, or years you’ve been together. It’s about how much you love each other every single day." 💛</p>
+            <p class="fade-in delay">"True love is rare, and it’s the only thing that gives life real meaning." 💕</p>
+            <p class="fade-in delay2">Do you agree with me? </p>
+            <div class="buttons">
+                <button class="yes-btn" onclick="nextSlide(2)">Yes</button>
+                <button class="no-btn" onmouseover="runAway(this)">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hidden" id="slide2">
+        <p class="fade-in">That's what I thought! 🌝</p>
+        <p class="fade-in delay">Did you also know that perfection is rare? It's almost impossible to find someone you can truly be yourself with, without fear of judgment.</p>
+        <p class="fade-in delay2">Someone who makes you feel at home, like u both share a cave together. </p>
+        <div class="buttons">
+            <button class="yes-btn" onclick="nextSlide(3)">Yes</button>
+            <button class="no-btn" onmouseover="runAway(this)">No</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="slide3">
+        <p class="fade-in">I was describing you. 💕</p>
+        <p class="fade-in delay">But do you know why?</p>
+        <div class="buttons">
+            <button class="yes-btn" onclick="fadeText()">Yes</button>
+            <button class="no-btn" onclick="nextSlide(4)">No</button>
+        </div>
+        <p class="hidden fade-text" id="fadeMessage">No, you don’t. 😏</p>
+    </div>
+
+    <div class="container hidden" id="slide4">
+        <p class="fade-in">You are perfection for a very simple reason:</p>
+        <p class="fade-in delay">Maria, you make me the happiest person alive, the way u take care of me is unmatched and i cant express to u how bad i love u my princess, u are such a blessing to have and simply i cant live without u. 
+You are just perfection, u are the person i always needed and wanted, and I can’t express how deeply I love you, my princess. 💖</p>
+        <p class="fade-in delay2">You are a blessing in my life, and I can’t imagine living without you. You are the person I always needed and wanted. 💕</p>
+        <button class="celebrate-btn" onclick="celebrate()">Click to celebrate! 🎉</button>
+    </div>
+
+    <div class="container hidden" id="slide5">
+        <p class="fade-in">My baby, I hope you liked this little piece of code. It might just be a website, but it’s filled with love. 💖</p>
+        <p class="fade-in delay">Happy anniversary, my love! </p>
+        <p class="fade-in delay2">You are my everything! ❤️</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
